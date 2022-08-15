@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Hamburger from "../Hamburger/Hamburger";
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 import { GlobalStyles, Primary } from './Layout.styles';
 
 const Layout = ({ children }) => {
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
       <Primary>
         {children}
       </Primary>
+      <Footer />
     </>
   )
 }
